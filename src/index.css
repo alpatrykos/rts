@@ -1,0 +1,49 @@
+:root {
+  --font-body: 'Space Grotesk', sans-serif;
+  --font-display: 'Orbitron', sans-serif;
+  --text-primary: #eef9f7;
+  --text-muted: rgba(220, 237, 234, 0.72);
+  --accent-cool: #51f0cf;
+  --accent-warm: #ffaf74;
+  --accent-danger: #ff725c;
+  --accent-soft: #dbc8a8;
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-width: 320px;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: #020507;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+strong,
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+}
